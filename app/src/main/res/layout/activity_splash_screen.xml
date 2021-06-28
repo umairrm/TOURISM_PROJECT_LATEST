@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.project.splash_screen"
+    android:orientation="vertical"
+    android:background="@drawable/backgrad">
+
+    <ImageView
+        android:id="@+id/OpenScreen"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/aeroicon"
+        />
+
+    <Button
+        android:id="@+id/GoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/OpenScreen"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="TRAVEL? LET'S GO!"
+        android:backgroundTint="@color/button_background_color"
+        android:textColor="#9F1D1D"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+</RelativeLayout>
