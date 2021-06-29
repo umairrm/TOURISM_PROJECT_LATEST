@@ -17,6 +17,7 @@ public class GetShogranDetails extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_get_shogran_details);
         shogran_name = findViewById(R.id.shogran_name);
         shogran_email = findViewById(R.id.shogran_email);

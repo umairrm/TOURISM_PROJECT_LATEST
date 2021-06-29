@@ -17,6 +17,7 @@ public class GetHunzaDetails extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_get_hunza_details);
         hunza_name = findViewById(R.id.hunza_name);
         hunza_email = findViewById(R.id.hunza_email);

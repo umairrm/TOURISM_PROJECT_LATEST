@@ -14,6 +14,7 @@ public class Hunza extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_hunza);
         hunza_interested = findViewById(R.id.hunza_interested);
         hunza_interested.setOnClickListener(new View.OnClickListener() {

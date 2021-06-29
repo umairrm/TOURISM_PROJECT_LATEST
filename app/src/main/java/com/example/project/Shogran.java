@@ -14,6 +14,7 @@ public class Shogran extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_shogran);
         shogran_interested = findViewById(R.id.shogran_interested);
         map_mainSH = findViewById(R.id.map_mainSH);

@@ -14,6 +14,7 @@ public class Chitral extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_chitral);
         chitral_interested = findViewById(R.id.chitral_interested);
         map_mainCH = findViewById(R.id.map_mainCH);

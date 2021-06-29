@@ -17,6 +17,7 @@ public class GetChitralDetails extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_get_chitral_details);
         chitral_name = findViewById(R.id.chitral_name);
         chitral_email = findViewById(R.id.chitral_email);

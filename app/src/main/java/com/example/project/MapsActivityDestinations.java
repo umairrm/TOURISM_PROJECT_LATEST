@@ -21,6 +21,7 @@ public class MapsActivityDestinations extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         // Retrieve the content view that renders the map.
         setContentView(R.layout.activity_maps_destinations);
 

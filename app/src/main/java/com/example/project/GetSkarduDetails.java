@@ -17,6 +17,7 @@ public class GetSkarduDetails extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_get_skardu_details);
         skardu_name = findViewById(R.id.skardu_name);
         skardu_email = findViewById(R.id.skardu_email);
